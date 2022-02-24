@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: pl.pandait.panda.PandaApplicationSeleniumTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.816 sec <<< FAILURE! - in pl.pandait.panda.PandaApplicationSeleniumTest
+greetings_shouldOpenMainPageThenReturnWelcomeText  Time elapsed: 0.77 sec  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vagrant', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-163-generic', java.version: '11.0.13'
+Driver info: driver.version: RemoteWebDriver
+	at pl.pandait.panda.PandaApplicationSeleniumTest.startup(PandaApplicationSeleniumTest.java:32)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.44.44:4444
+	at pl.pandait.panda.PandaApplicationSeleniumTest.startup(PandaApplicationSeleniumTest.java:32)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at pl.pandait.panda.PandaApplicationSeleniumTest.startup(PandaApplicationSeleniumTest.java:32)
+
+greetings_shouldOpenSubpageThenReturnGreetingsText  Time elapsed: 0.022 sec  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vagrant', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-163-generic', java.version: '11.0.13'
+Driver info: driver.version: RemoteWebDriver
+	at pl.pandait.panda.PandaApplicationSeleniumTest.startup(PandaApplicationSeleniumTest.java:32)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.44.44:4444
+	at pl.pandait.panda.PandaApplicationSeleniumTest.startup(PandaApplicationSeleniumTest.java:32)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at pl.pandait.panda.PandaApplicationSeleniumTest.startup(PandaApplicationSeleniumTest.java:32)
+
