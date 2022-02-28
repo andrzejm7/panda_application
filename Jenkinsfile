@@ -1,4 +1,4 @@
-pipkhhlhhgiteline {
+pipline {
     agent {
         label '007'
     }
